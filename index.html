@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>XperiGrok Portfólio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <h1>Bem-vindo ao XperiGrok Portfólio</h1>
     <p>Esta é a página inicial do seu portfólio.</p>
+
+    <!-- Formulário de Cadastro de Usuário -->
+    <section id="user-registration">
+        <h2>Cadastro de Usuário</h2>
+        <form id="registrationForm">
+            <label for="username">Nome:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="bio">Biografia:</label>
+            <textarea id="bio" name="bio" required></textarea>
+            <label for="profile_picture">Foto de Perfil:</label>
+            <input type="file" id="profile_picture" name="profile_picture" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <!-- Galeria de Trabalhos -->
+    <section id="project-gallery">
+        <h2>Galeria de Trabalhos</h2>
+        <div id="projects"></div>
+    </section>
+
+    <script src="js/scripts.js"></script>
 </body>
 </html>
