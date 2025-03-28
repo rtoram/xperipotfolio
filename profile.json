@@ -1,0 +1,19 @@
+{
+  "name": "John Doe",
+  "bio": "Designer apaixonado por criar experiências visuais incríveis.",
+  "profile_picture": "path/to/profile_picture.jpg",
+  "projects": [
+    {
+      "title": "Projeto 1",
+      "description": "Descrição do Projeto 1",
+      "images": ["path/to/image1.jpg", "path/to/image2.jpg"],
+      "external_link": "https://linkprojeto.com"
+    },
+    {
+      "title": "Projeto 2",
+      "description": "Descrição do Projeto 2",
+      "images": ["path/to/image3.jpg", "path/to/image4.jpg"],
+      "external_link": "https://linkprojeto.com"
+    }
+  ]
+}
